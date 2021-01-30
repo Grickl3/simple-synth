@@ -1,0 +1,11 @@
+
+
+.layout__keys {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	margin: 2rem;
+}
+

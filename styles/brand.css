@@ -1,0 +1,17 @@
+
+
+h1 {
+	margin: 5rem 0 0 0;
+
+	font-family: Helvetica, sans-serif;
+	color: slategrey;
+	text-align: center;
+}
+
+h5 {
+	margin: .75rem 0 0 0;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: .75rem;
+	color: darkslategrey;
+	text-align: center;
+}

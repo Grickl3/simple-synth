@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SIMPLE SYNTH</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Simple Synth is a very simple sythesizer being developed to the specifications of Speech Language Pathologists. It is to be used in the treatment of hearing and speech impared patients. Simple Synth collects no data from the user and is exept from HIPAA compliance standards.">
+	<meta name="keywords" content="speech language pathology, SLP, speech emparement, hearing emparement, assistive learning, hearing interventions, speech training, speech pathology, hearing trainer">
+	<meta name="author" content="SQGLZ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="styles/brand.css">
+	<link rel="stylesheet" type="text/css" href="styles/layout.css">
+	<link rel="stylesheet" type="text/css" href="styles/ui.css">
+</head>
+<body>
+
+	<h1>Simple Synth</h1>
+	<h5>from SQGLZ</h5>
+
+	<div class="layout__keys">
+		<div id="key-1" class="ui__key ui__key-1"></div>
+		<div id="key-2" class="ui__key ui__key-2"></div>
+		<div id="key-3" class="ui__key ui__key-3"></div>
+		<div id="key-4" class="ui__key ui__key-4"></div>
+		<div id="key-5" class="ui__key ui__key-5"></div>
+		<div id="key-6" class="ui__key ui__key-6"></div>
+		<div id="key-7" class="ui__key ui__key-7"></div>
+		<div id="key-8" class="ui__key ui__key-8"></div>
+	</div><!-- KEYS -->
+
+	<div>
+		<audio id="sound-one">
+		  <source src="sounds/beep-01a.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-two">
+		  <source src="sounds/beep-02.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-three">
+		  <source src="sounds/beep-03.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-four">
+		  <source src="sounds/beep-04.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-five">
+		  <source src="sounds/beep-05.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-six">
+		  <source src="sounds/beep-06.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-seven">
+		  <source src="sounds/beep-07.mp3" type="audio/mp3">
+		</audio>
+		<audio id="sound-eight">
+		  <source src="sounds/beep-08b.mp3" type="audio/mp3">
+		</audio>
+	</div><!-- AUDIO VAULT -->
+
+	<script type="text/javascript">
+		
+	// VARIABLES
+		const keyOne = document.getElementById("key-1");
+		const soundOne = document.getElementById("sound-one");
+
+		const keyTwo = document.getElementById("key-2");
+		const soundTwo = document.getElementById("sound-two");
+
+		const keyThree = document.getElementById("key-3");
+		const soundThree = document.getElementById("sound-three");
+
+		const keyFour = document.getElementById("key-4");
+		const soundFour = document.getElementById("sound-four");
+
+		const keyFive = document.getElementById("key-5");
+		const soundFive = document.getElementById("sound-five");
+
+		const keySix = document.getElementById("key-6");
+		const soundSix = document.getElementById("sound-six");
+
+		const keySeven = document.getElementById("key-7");
+		const soundSeven = document.getElementById("sound-seven");
+
+		const keyEight = document.getElementById("key-8");
+		const soundEight = document.getElementById("sound-eight");
+
+	// CONTROLS
+		keyOne.addEventListener("click", function() {
+			soundOne.play();
+			// console.log("button pressed");
+		})
+
+		keyTwo.addEventListener("click", function() {
+			soundTwo.play();
+			// console.log("button pressed");
+		})
+
+		keyThree.addEventListener("click", function() {
+			soundThree.play();
+			// console.log("button pressed");
+		})
+
+		keyFour.addEventListener("click", function() {
+			soundFour.play();
+			// console.log("button pressed");
+		})
+
+		keyFive.addEventListener("click", function() {
+			soundFive.play();
+			// console.log("button pressed");
+		})
+
+		keySix.addEventListener("click", function() {
+			soundSix.play();
+			// console.log("button pressed");
+		})
+
+		keySeven.addEventListener("click", function() {
+			soundSeven.play();
+			// console.log("button pressed");
+		})
+
+		keyEight.addEventListener("click", function() {
+			soundEight.play();
+			// console.log("button pressed");
+		})
+
+	</script>
+
+</body>
+</html>
